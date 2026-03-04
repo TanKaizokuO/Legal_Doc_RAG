@@ -1,0 +1,26 @@
+# Environment & secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Vector store data
+chroma_db/
+
+# Uploaded PDFs
+data/*.pdf
+data/*.PDF
+
+# Streamlit cache
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
